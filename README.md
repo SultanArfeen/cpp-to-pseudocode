@@ -48,3 +48,9 @@ Implement explainability tools to highlight code logic.
 Expand support to multiple programming languages.
 
 Read the full article: https://medium.com/@sultanularfeen/converting-c-to-pseudocode-building-another-transformer-model-3986e189cb89
+
+Dataset Download
+To train the model, you must download the SPoC dataset or any other dataset of your choice.
+
+# SPoC Dataset Download: Google Drive Link
+## ⚠ Disclaimer: Due to licensing restrictions, this repository does not include the dataset. Users are responsible for downloading and using it in compliance with its terms.
