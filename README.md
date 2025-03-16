@@ -1,25 +1,50 @@
-Converting C++ to Pseudocode — Building Another Transformer Model that is the opposite of the previous one
+# C++ to Pseudocode — Transformer-Based Code Translation  
 
+## Overview  
+This project builds a **Transformer-based model** that converts **C++ code back into pseudocode** for better readability and understanding. The model is trained on the **SPoC dataset** and deployed via **Streamlit** for real-time usage.  
 
+## Project Highlights  
+- **Dataset:** SPoC dataset (reversed mapping: C++ as input, pseudocode as output).  
+- **Architecture:** A **Transformer encoder-decoder** model with token embeddings and positional encodings.  
+- **Training:** Implemented in **PyTorch**, with checkpointing and progress tracking.  
+- **Deployment:** A **Streamlit web app** for real-time C++ to pseudocode conversion.  
 
-Understanding complex code can be challenging, especially when documentation is lacking. In my latest project, I built a Transformer-based model that reverses the typical code generation process—translating C++ code back into human-readable pseudocode.
+## Installation  
+Clone the repository and install dependencies:  
 
+```bash
+git clone https://github.com/yourusername/cpp-to-pseudocode.git
+cd cpp-to-pseudocode
+pip install -r requirements.txt
+```
 
+Usage
+1. Train the Model
+To train the model from scratch, run:
 
-Using the SPoC dataset, I trained the model by swapping input and output roles, making C++ the source and pseudocode the target. The model architecture remains a custom Transformer with embeddings, positional encodings, and an encoder-decoder design, all implemented in PyTorch.
+python train.py
+2. Run the Streamlit App
+To launch the interactive app, use:
 
+streamlit run app.py
+Dataset
+The SPoC dataset is used, where the roles are reversed (C++ as input, pseudocode as output).
 
+Model Architecture
+Transformer-based encoder-decoder
+Custom token embeddings
+Positional encodings
+Trained in PyTorch
+Deployment
+The trained model is hosted on Hugging Face Spaces, allowing users to input C++ code and receive a pseudocode explanation.
 
-Key Highlights:
-
-Automating code understanding through deep learning.
-
-Efficient training and streamlined logging using a dynamic progress bar in Streamlit.
-
-Deployment on Hugging Face Spaces, allowing real-time C++ to pseudocode conversion.
-
-This project demonstrates how AI can assist developers by bridging the gap between raw code and human comprehension. Whether for documentation, debugging, or learning, such tools make programming more accessible.
-
-
+Challenges and Learnings
+Handling the complexity of C++ syntax and converting it into simple pseudocode.
+Addressing ambiguities in mapping code to pseudocode.
+Managing training efficiency while preserving accuracy.
+Future Improvements
+Fine-tune on larger datasets for better results.
+Implement explainability tools to highlight code logic.
+Expand support to multiple programming languages.
 
 Read the full article: https://medium.com/@sultanularfeen/converting-c-to-pseudocode-building-another-transformer-model-3986e189cb89
