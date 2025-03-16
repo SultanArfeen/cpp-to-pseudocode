@@ -49,8 +49,7 @@ Expand support to multiple programming languages.
 
 Read the full article: https://medium.com/@sultanularfeen/converting-c-to-pseudocode-building-another-transformer-model-3986e189cb89
 
-Dataset Download
+# Dataset Download
 To train the model, you must download the SPoC dataset or any other dataset of your choice.
-
 ## SPoC Dataset Download: [https://drive.google.com/file/d/1AqL7FlyVwqNKLyFZOGGhvwhSMqx7hBYG/view?usp=sharing](https://drive.google.com/file/d/17v5rId0QeC-i6DmbiodrAKOOL8Wy3yhW/view?usp=drive_link)
 Disclaimer: Due to the size being too large, the dataset is to be downloaded seperately.
